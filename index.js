@@ -89,7 +89,7 @@ function processLoanHistory(loanHistory) {
         row.appendChild(bankName);
 
         var loanAmountCell = document.createElement('td');
-        loanAmountCell.textContent = loan.Loan_Amount;
+        loanAmountCell.textContent = loan.Approve_Loan_Amount;
         row.appendChild(loanAmountCell);
         
         var loanRqsDate = document.createElement('td');
